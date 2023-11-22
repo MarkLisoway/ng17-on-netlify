@@ -7,6 +7,9 @@ publish = "dist/ng17-on-netlify/browser"
 [[plugins]]
   package = "@netlify/angular-runtime"
 
+[[plugins]]
+  package = "@netlify/plugin-angular-universal"
+
 ## Uncomment to use this redirect for Single Page Applications like create-react-app.
 ## Not needed for static site generators.
 #[[redirects]]
